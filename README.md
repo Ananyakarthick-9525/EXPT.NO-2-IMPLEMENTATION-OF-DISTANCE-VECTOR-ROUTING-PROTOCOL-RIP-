@@ -3,16 +3,21 @@
 
 To connect computers in multiple networks using Distance Vector Routing Protocol and to verify the connectivity between computers.
 # EQUIPMENTS REQUIRED:
+<img width="987" height="271" alt="image" src="https://github.com/user-attachments/assets/a69c41e2-a591-4642-b139-24bebe2aaa61" />
 
 
 
 # IP ASSIGNMENT:
 
+<img width="1022" height="493" alt="image" src="https://github.com/user-attachments/assets/67a6186f-85e1-4320-abff-4f4fe40e4dfd" />
 
 
 # NETWORK DIAGRAM:
-# PROCEDURE:
 
+<img width="1572" height="687" alt="Screenshot 2025-12-02 230542" src="https://github.com/user-attachments/assets/0fc1282a-ff51-4e8d-b5ce-35b8ef74ae07" />
+
+# PROCEDURE:
+~~~
 STEP 1: Open a Packet Tracer Software.
 STEP 2: Drag two 2900 Switches, two Cisco 1800 Routers, four PC Terminals from tool barand drop it in work area.
 STEP 3: Connect all the PC Terminals and Routers through Switches as shown in the networkdiagram using CAT 6 Patch cables.
@@ -29,9 +34,9 @@ o PC2: 192.168.2.2, Subnet Mask: 255.255.255.0, Gateway: 192.168.2.1
 o PC3: 192.168.3.2, Subnet Mask: 255.255.255.0, Gateway: 192.168.3.1
 o PC4: 192.168.4.2, Subnet Mask: 255.255.255.0, Gateway: 192.168.4.1
 o PC5: 192.168.4.3, Subnet Mask: 255.255.255.0, Gateway: 192.168.4.1
- 
+ ~~~
 # PROGRAM
-
+~~~
 Router0 Configuration Steps
 Click Router 0 and in CLI TYPE THIS Router> enable
 Router# configure terminal Router(config)# interface FastEthernet0/0
@@ -77,11 +82,17 @@ You can also check connectivity between the PCs on different networks to ensure 
 3.	Use the ping command: ping 192.168.3.2
 4.	If everything is configured correctly, you should receive replies from PC3.
 •	Similarly, you can ping between other PCs (e.g., from PC2 to PC5) to verify network connective
- 
+ ~~~
 # OUTPUT
 
+
+<img width="1592" height="766" alt="Screenshot 2025-12-02 230615" src="https://github.com/user-attachments/assets/a46b75c7-2cee-4121-80cc-531d3603a037" />
+
+
+<img width="1524" height="727" alt="Screenshot 2025-12-02 230650" src="https://github.com/user-attachments/assets/9045fb3b-9680-45a4-be7e-293fbe538eb0" />
 
 
 # RESULT:
 
-Thus the computers in multiple networks using Distance Vector Routing <img width="576" height="365" alt="image" src="https://github.com/user-attachments/assets/f4245c26-a2f8-4621-b317-0a2c8049f764" />
+Thus the computers in multiple networks using Distance Vector Routing
+<img width="576" height="365" alt="image" src="https://github.com/user-attachments/assets/f4245c26-a2f8-4621-b317-0a2c8049f764" />
